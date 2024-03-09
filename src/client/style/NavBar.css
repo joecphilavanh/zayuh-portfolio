@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@400;500;700&display=swap');
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: white;
+  height: 60px;
+}
+
+.navbar-logo img {
+  max-height: 60px;
+  padding: 10px 0;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 10px 0;
+  font-size: 2.24rem;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+.main-content {
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 10px;
+    height: 50px;
+  }
+
+  .navbar-logo img {
+    padding: 5px 0;
+    height: 40px;
+  }
+
+  .navbar-links a {
+    margin-left: 10px;
+    font-size: 0.8rem;
+  }
+}
