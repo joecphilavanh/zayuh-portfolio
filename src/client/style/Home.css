@@ -126,6 +126,42 @@
   }
 }
 
+@media (max-width: 428px) {
+  .hero-section {
+    background-position: 88% center ; 
+  }
+  .hero-content {
+    top: 0%;
+    right: 10%;
+    width: 80%;
+    padding: 20px;
+  }
+
+  .text-box {
+    font-size: 30px; 
+  }
+  .about-section {
+    flex-direction: column; 
+    padding: 50px 0; 
+  }
+
+  .about-text, .about-image {
+    width: 100%; 
+    padding: 0 20px; 
+    text-align: center; 
+  }
+
+  .about-text {
+    padding-top: 20px; 
+    font-size: 26px; 
+  }
+
+  .about-image {
+    justify-content: center; 
+  }
+}
+
+
 .youtube-video-section {
   text-align: center; 
   padding: 50px 0; 
