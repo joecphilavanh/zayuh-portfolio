@@ -128,7 +128,7 @@
 
 @media (max-width: 428px) {
   .hero-section {
-    background-position: 80% center ; 
+    background-position: 90% center ; 
   }
   .hero-content {
     top: 0%;
@@ -159,18 +159,7 @@
   .about-image {
     justify-content: center; 
   }
-  .icons-container {
-    display: flex;
-    flex-direction: column; /* Change to column for mobile devices */
-    align-items: center; /* Center icons if there's extra space */
-    justify-content: center;
-  }
   
-  .icon {
-    width: 10px; /* Shrink icons for smaller screens */
-    height: 30px; /* Adjust size as needed */
-    margin: 5px; /* Optional: add some space around icons */
-  }
 }
 
 
