@@ -92,6 +92,9 @@
 }
 
 @media (max-width: 768px) {
+  .hero-section {
+    background-position: 95% center ; 
+  }
   .hero-content {
     top: 0%;
     right: 10%;
