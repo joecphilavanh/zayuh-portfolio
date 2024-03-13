@@ -20,13 +20,13 @@ const NavBar = () => {
         <img src="/img/logo.png" alt="Logo" />
       </Link>
       <div className="navbar-links">
-        <Link
-          to={location.pathname === "/" ? "/" : "/#portfolio"}
-          className="navbar-links"
+        <a
+          href="#portfolio"
           onClick={scrollToPortfolio}
+          className="navbar-links"
         >
           Portfolio
-        </Link>
+        </a>
         <Link to="/contact" className="navbar-link">
           {" "}
           Contact

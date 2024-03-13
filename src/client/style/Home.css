@@ -137,7 +137,7 @@
   justify-content: center;
   opacity: .8;
   transition: opacity 0.5s ease;
-  height: 18%; 
+  height: 5%; 
 }
 
 .portfolio-item:hover .portfolio-item-overlay {
