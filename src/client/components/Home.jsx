@@ -25,12 +25,14 @@ const Home = () => {
         <div className="about-text">
           <h2>ABOUT</h2>
           <p>
-            Ever since I picked up a camera, I knew I found my calling.
-            Capturing the world's beauty and fleeting moments became my passion.
-            Photography has allowed me to express my creativity, meet incredible
-            people, and tell stories without words. From the golden hour's soft
-            light to the raw emotions of life's milestones, each photo I take is
-            a piece of my journey.
+            The moment I picked up a camera, it clicked—I was meant for this.
+            Photography became my way to chase the real, the now, and the
+            once-in-a-lifetime. It’s about snapping the unfiltered beauty of the
+            streets, the candid laughs, and the silent stories. With each photo,
+            I bring my perspective, blending urban vibes with moments that don't
+            last. It's not just about capturing images; it's about creating a
+            vibe, a memory, and a story that sticks. This is where I turn the
+            ordinary into iconic, one shot at a time
           </p>
         </div>
       </section>
