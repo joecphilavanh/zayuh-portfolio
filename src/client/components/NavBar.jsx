@@ -1,16 +1,36 @@
 import React from "react";
-import logo from "../img/logo.png";
+import { Link, useLocation } from "react-router-dom";
 import "../style/NavBar.css";
 
 const NavBar = () => {
+  const location = useLocation();
+
+  const scrollToPortfolio = () => {
+    if (location.pathname === "/") {
+      const portfolioSection = document.getElementById("portfolio");
+      if (portfolioSection) {
+        portfolioSection.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
+
   return (
     <nav>
-      <a href="/" className="navbar-logo">
-        <img src={logo} alt="Logo" />
-      </a>
+      <Link to="/" className="navbar-logo">
+        <img src="/img/logo.png" alt="Logo" />
+      </Link>
       <div className="navbar-links">
-        <a href="/">Portfolio</a>
-        <a href="/about">Contact</a>
+        <Link
+          to={location.pathname === "/" ? "/" : "/#portfolio"}
+          className="navbar-links"
+          onClick={scrollToPortfolio}
+        >
+          Portfolio
+        </Link>
+        <Link to="/contact" className="navbar-link">
+          {" "}
+          Contact
+        </Link>
       </div>
     </nav>
   );
