@@ -1,6 +1,7 @@
 .site-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
   padding: 20px;
   background-color: #ffffff;
@@ -21,11 +22,11 @@
 .social-links {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .social-links a {
-  display: inline-flex;
-}
+  margin: 0 10px;}
 
 .youtube-icon, .instagram-icon, .x-icon {
   height: auto;
@@ -43,18 +44,11 @@
   width: 60px;
 }
 
-.text-container {
-  max-width: 400px;
-  margin-left: 0;
-  margin-right: auto;
-  padding: 20px;
-  font-size: 18px;
-  line-height: 1.2;
-}
+
 
 @media (max-width: 480px) {
   .social-links {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
